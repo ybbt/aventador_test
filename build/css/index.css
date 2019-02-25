@@ -92,7 +92,6 @@ body {
 }
 .arrow {
   position: absolute;
-  /* top: 50%; */
   z-index: 5;
   margin: 90px 20px;
 }
@@ -144,8 +143,8 @@ body {
   }
 }
 .logo {
-  background: url(../img/logo.png) no-repeat;
-  background: -webkit-image-set(url('../img/logo.webp') 1x) no-repeat;
+  background: url(../img/Logo.png) no-repeat;
+  background: -webkit-image-set(url('../img/Logo.webp') 1x) no-repeat;
   -webkit-background-size: 80px 80px;
           background-size: 80px 80px;
   display: -webkit-box;
