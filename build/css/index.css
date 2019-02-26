@@ -602,12 +602,29 @@ body {
   color: #8e8470;
   font-size: 11px;
 }
+@media (max-width: 970px) {
+  .footer {
+    width: 440px;
+  }
+}
 .footer::before {
   content: '';
-  width: 50%;
+  width: 440px;
+  position: relative;
+}
+@media (max-width: 970px) {
+  .footer::before {
+    display: none;
+    position: absolute;
+  }
 }
 .footer_right {
   width: 50%;
+}
+@media (max-width: 970px) {
+  .footer_right {
+    width: 100%;
+  }
 }
 .slider {
   margin: 0 50px;
