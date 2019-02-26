@@ -176,6 +176,7 @@ body {
 .menu {
 	display: flex;
 	justify-content: center;
+	margin-right: 50px;
 
 	@media (max-width: @widthAdapt ) {
 		max-width: @cellWidth*2;
@@ -557,6 +558,27 @@ body {
 	}
 
 	
+}
+
+.footer {
+	display: flex;
+	width: 880px;
+	height: 175px;
+	align-items: center;
+
+	color: @colorBorder;
+	font-size: 11px;
+
+	&::before {
+		content: '';
+		width: 50%;
+	}
+
+
+	&_right {
+		width: 50%;
+		// height: 100%;
+	}
 }
 
 .slider {

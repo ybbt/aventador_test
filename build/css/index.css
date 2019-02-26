@@ -177,6 +177,7 @@ body {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-right: 50px;
 }
 @media (max-width: 970px) {
   .menu {
@@ -586,6 +587,27 @@ body {
 .content-visual_paragraph__down {
   letter-spacing: 0.2em;
   text-align: center;
+}
+.footer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 880px;
+  height: 175px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #8e8470;
+  font-size: 11px;
+}
+.footer::before {
+  content: '';
+  width: 50%;
+}
+.footer_right {
+  width: 50%;
 }
 .slider {
   margin: 0 50px;
